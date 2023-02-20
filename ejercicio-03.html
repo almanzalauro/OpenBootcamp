@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia con HTML</title>
+</head>
+<body>
+    <section>    
+        <h1>Aprendiendo a utilizar imágenes</h1>
+        <img src="airbagimg.jpg" alt="Imagen-Airbag" width="100" height="100"/>
+    </section>
+    
+    <section>
+        <h3>Aprendiendo a utilizar videos</h3>
+        <!--control muestra los controles de video
+            autoplay muted loop indica que se reproduzca automaticamente, muteado y que cuando termine se vuelva a reproducir-->
+        <video width="300" height="320" controls autoplay muted loop>
+            <source src="airbagvideo.mp4" type="video/mp4"/>
+        </video>
+    </section>
+
+    <section>
+        <h3>Aprendiendo a utilizar audios</h3>
+        <audio controls autoplay loop>
+            <source src="airbagaudio.mp3"/>
+        </audio>
+    </section>
+</body>
+</html>
